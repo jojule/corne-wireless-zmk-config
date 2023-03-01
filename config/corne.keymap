@@ -27,7 +27,7 @@
                 default_layer {
                         bindings = <
    &kp TAB   &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BSPC
-   &kp LCTRL & LGUI A &bhm LALT R &bhm LSHFT S &bhm LCTRL T &kp D   &kp H &bhm LCTRL N  &bhm LSHFT E &bhm LALT I   &bhm LGUI O &kp SQT
+   &kp LCTRL &bhm LGUI A &bhm LALT R &bhm LSHFT S &bhm LCTRL T &kp D   &kp H &bhm LCTRL N  &bhm LSHFT E &bhm LALT I   &bhm LGUI O &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
                   &kp TAB &mo 1 &kp BSPC   &kp SPACE &mo 2 &kp RET
                         >;
@@ -44,7 +44,7 @@
                 raise_layer {
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &kp  TAB  & LGUI EXCL &bhm LALT AT &bhm LSHFT HASH &bhm LCTRL DLLR &kp PRCNT   &kp CARET &bhm LCTRL AMPS  &bhm LSHFT KP_MULTIPLY &bhm LALT LPAR &bhm LGUI RPAR &kp BSPC
+   &kp  TAB  &bhm LGUI EXCL &bhm LALT AT &bhm LSHFT HASH &bhm LCTRL DLLR &kp PRCNT   &kp CARET &bhm LCTRL AMPS  &bhm LSHFT KP_MULTIPLY &bhm LALT LPAR &bhm LGUI RPAR &kp BSPC
    &kp LSHFT &kp TILDE   &trans &trans   &trans   &trans      &kp UNDER &kp PLUS  &kp LBRC        &kp RBRC &kp PIPE &kp TILDE
                     	     &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
