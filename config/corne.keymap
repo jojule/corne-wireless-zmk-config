@@ -21,6 +21,59 @@
              };
         };
 
+
+        macros {
+                ae: ae {
+                        label = "ä";
+                        compatible = "zmk,behavior-macro";
+                        #binding-cells = <0>;
+                        bindings
+                                = <&macro_press &kp LALT>
+                                , <&macro_tap &kp U>
+                                , <&macro_release &kp LALT>
+                                , <&macro_tap &kp A>
+                                ;
+                };
+                oe: oe {
+                        label = "ö";
+                        compatible = "zmk,behavior-macro";
+                        #binding-cells = <0>;
+                        bindings
+                                = <&macro_press &kp LALT>
+                                , <&macro_tap &kp U>
+                                , <&macro_release &kp LALT>
+                                , <&macro_tap &kp O>
+                                ;
+                };
+                cae: cae {
+                        label = "Ä";
+                        compatible = "zmk,behavior-macro";
+                        #binding-cells = <0>;
+                        bindings
+                                = <&macro_press &kp LALT>
+                                , <&macro_tap &kp U>
+                                , <&macro_release &kp LALT>
+                                , <&macro_press &kp LSHFT>
+                                , <&macro_tap &kp A>
+                                , <&macro_release &kp LSHFT>
+                                ;
+                };
+                coe: coe {
+                        label = "Ö";
+                        compatible = "zmk,behavior-macro";
+                        #binding-cells = <0>;
+                        bindings
+                                = <&macro_press &kp LALT>
+                                , <&macro_tap &kp U>
+                                , <&macro_release &kp LALT>
+                                , <&macro_press &kp LSHFT>
+                                , <&macro_tap &kp O>
+                                , <&macro_release &kp LSHFT>
+                                ;
+                };
+        };
+
+
         keymap {
                 compatible = "zmk,keymap";
 
@@ -45,7 +98,7 @@
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
    &kp  TAB  &bhm LGUI EXCL &bhm LALT AT &bhm LSHFT HASH &bhm LCTRL DLLR &kp PRCNT   &kp CARET &bhm LCTRL AMPS  &bhm LSHFT KP_MULTIPLY &bhm LALT LPAR &bhm LGUI RPAR &kp BSPC
-   &kp LSHFT &kp GRAVE   &trans &trans   &trans   &trans      &kp MINUS &kp EQUAL  &kp APOS        &kp LBKT &kp RBKT &kp TILDE
+   &kp LSHFT &kp GRAVE   &coe &oe &ae &cae &kp MINUS &kp EQUAL  &kp APOS        &kp LBKT &kp RBKT &kp TILDE
                     	     &trans  &trans  &trans  &trans  &trans   &kp BSLH
                         >;
                 };
