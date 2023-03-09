@@ -79,26 +79,26 @@
 
                 default_layer {
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp SEMI &kp BSPC
-   &kp LCTRL &bhm LGUI A &bhm LALT R &bhm LSHFT S &bhm LCTRL T &kp D   &kp H &bhm LCTRL N  &bhm LSHFT E &bhm LALT I   &bhm LGUI O &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
+   &none &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp SEMI &none
+   &none &bhm LGUI A &bhm LALT R &bhm LSHFT S &bhm LCTRL T &kp D   &kp H &bhm LCTRL N  &bhm LSHFT E &bhm LALT I   &bhm LGUI O &none
+   &none &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &none
                   &kp TAB &lt 1 ESC &kp BSPC   &kp SPACE &mo 2 &bhm RGUI RET
                         >;
                 };
                 lower_layer {
                         bindings = <
-   &kp TAB    &kp C_BRIGHTNESS_DEC       &kp C_BRIGHTNESS_INC       &kp C_VOL_DN       &kp C_VOL_UP       &kp C_PLAY_PAUSE      &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &bt BT_CLR  &trans       &trans     &trans       &trans   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS     &trans      &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
-   &kp LSHFT  &kp ESC    &bt BT_SEL 0 &bt BT_SEL 1     &trans       &trans         &trans   &kp HOME &kp PG_DN &kp PG_UP &kp END &trans
-                          	        &trans      &trans       &trans       &kp ESC      &trans  &trans  
+   &none &kp C_BRIGHTNESS_DEC       &kp C_BRIGHTNESS_INC       &kp C_VOL_DN       &kp C_VOL_UP       &kp C_PLAY_PAUSE      &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &none
+   &none &trans       &trans     &trans       &trans   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS     &trans      &kp LEFT &kp DOWN &kp UP &kp RIGHT &none
+   &none &kp ESC    &bt BT_SEL 0 &bt BT_SEL 1     &trans       &trans         &trans   &kp HOME &kp PG_DN &kp PG_UP &kp END &none
+                          	        &trans      &trans       &trans       &kp ESC      &trans  &none
                         >;
                 };
 
                 raise_layer {
                         bindings = <
-   &kp TAB    &mt F1 N1       &mt F2 N2       &mt F3 N3       &mt F4 N4       &mt F5 N5         &mt F6 N6   &mt F7 N7   &mt F8 N8 &mt F9 N9    &mt F10 N0 &kp BSPC
-   &kp  TAB  &bhm LGUI EXCL &bhm LALT AT &bhm LSHFT HASH &bhm LCTRL DLLR &kp PRCNT   &kp CARET &bhm LCTRL AMPS  &bhm LSHFT KP_MULTIPLY &bhm LALT LPAR &bhm LGUI RPAR &kp BSPC
-   &kp LSHFT &kp GRAVE   &coe &oe &ae &cae &kp MINUS &kp EQUAL  &kp APOS        &kp LBKT &kp RBKT &kp TILDE
+   &none &mt F1 N1       &mt F2 N2       &mt F3 N3       &mt F4 N4       &mt F5 N5         &mt F6 N6   &mt F7 N7   &mt F8 N8 &mt F9 N9    &mt F10 N0 &none
+   &none &bhm LGUI EXCL &bhm LALT AT &bhm LSHFT HASH &bhm LCTRL DLLR &kp PRCNT   &kp CARET &bhm LCTRL AMPS  &bhm LSHFT KP_MULTIPLY &bhm LALT LPAR &bhm LGUI RPAR &none
+   &none &kp GRAVE   &coe &oe &ae &cae &kp MINUS &kp EQUAL  &kp APOS        &kp LBKT &kp RBKT &none
                     	     &trans  &trans  &trans  &trans  &trans   &kp BSLH
                         >;
                 };
