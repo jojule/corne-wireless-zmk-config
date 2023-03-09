@@ -27,6 +27,8 @@
                         label = "ä";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
+                        wait-ms = <40>;
+                        tap-ms = <40>;
                         bindings
                                 = <&macro_press &kp LALT>
                                 , <&macro_tap &kp U>
@@ -38,6 +40,8 @@
                         label = "ö";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
+                        wait-ms = <40>;
+                        tap-ms = <40>;
                         bindings
                                 = <&macro_press &kp LALT>
                                 , <&macro_tap &kp U>
@@ -49,6 +53,8 @@
                         label = "Ä";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
+                        wait-ms = <40>;
+                        tap-ms = <40>;
                         bindings
                                 = <&macro_press &kp LALT>
                                 , <&macro_tap &kp U>
@@ -62,6 +68,8 @@
                         label = "Ö";
                         compatible = "zmk,behavior-macro";
                         #binding-cells = <0>;
+                        wait-ms = <40>;
+                        tap-ms = <40>;
                         bindings
                                 = <&macro_press &kp LALT>
                                 , <&macro_tap &kp U>
