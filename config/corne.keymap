@@ -11,27 +11,14 @@
 / {
         behaviors {
                 bhm: balanced_homerow_mods {
-                        compatible = "zmk,behavior-hold-tap";
-                        label = "HOMEROW_MODS";
-                        #binding-cells = <2>;
-                        tapping-term-ms = <200>;    // <---[[moderate duration]]
-                        quick-tap-ms = <0>;
-                        flavor = "balanced";
-                        bindings = <&kp>, <&kp>;
-                };
-                bhma: balanced_homerow_mods_a {
-                        compatible = "zmk,behavior-hold-tap";
-                        label = "HOMEROW_MODS";
-                        #binding-cells = <2>;
-                        tapping-term-ms = <200>;    // <---[[moderate duration]]
-                        quick-tap-ms = <0>;
-                        flavor = "balanced";
-                        bindings = <&kp>, <&kp>;
-                        hold-trigger-key-positions = <
-                                 2  3  4  5  6  7  8  9 10 
-                                14 15 16 17 18 19 20 21 22 
-                                26 27 28 29 30 31 32 33 34>;
-                };
+                compatible = "zmk,behavior-hold-tap";
+                label = "HOMEROW_MODS";
+                #binding-cells = <2>;
+                tapping-term-ms = <200>;    // <---[[moderate duration]]
+                quick-tap-ms = <0>;
+                flavor = "balanced";
+                bindings = <&kp>, <&kp>;
+             };
         };
 
 
@@ -101,7 +88,7 @@
                 default_layer {
                         bindings = <
    &none &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp SEMI &none
-   &none &bhma LGUI A &bhm LALT R &bhm LSHFT S &bhm LCTRL T &kp D   &kp H &bhm LCTRL N  &bhm LSHFT E &bhm LALT I   &bhm LGUI O &none
+   &none &bhm LGUI A &bhm LALT R &bhm LSHFT S &bhm LCTRL T &kp D   &kp H &bhm LCTRL N  &bhm LSHFT E &bhm LALT I   &bhm LGUI O &none
    &none &kp Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &kp FSLH &none
                   &kp TAB &lt 1 ESC &kp BSPC   &kp SPACE &mo 2 &bhm RGUI RET
                         >;
