@@ -1,4 +1,5 @@
 # Corne keyboard
+![](corne.webp)
 
 ## Config
 ![](layout.svg)
