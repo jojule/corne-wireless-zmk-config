@@ -10,15 +10,23 @@
 
 / {
         behaviors {
+                ht_hp: holdtap_holdpreferred {
+                        compatible = "zmk,behavior-hold-tap";
+                        label = "THUMB_HOLD_TAPS";
+                        #binding-cells = <2>;
+                        tapping-term-ms = <200>;    // <---[[moderate duration]]
+                        flavor = "hold-preferred";
+                        bindings = <&kp>, <&kp>;
+                };
                 bhm: balanced_homerow_mods {
-                compatible = "zmk,behavior-hold-tap";
-                label = "HOMEROW_MODS";
-                #binding-cells = <2>;
-                tapping-term-ms = <200>;    // <---[[moderate duration]]
-                quick-tap-ms = <0>;
-                flavor = "balanced";
-                bindings = <&kp>, <&kp>;
-             };
+                        compatible = "zmk,behavior-hold-tap";
+                        label = "HOMEROW_MODS";
+                        #binding-cells = <2>;
+                        tapping-term-ms = <200>;    // <---[[moderate duration]]
+                        quick-tap-ms = <0>;
+                        flavor = "balanced";
+                        bindings = <&kp>, <&kp>;
+                };
         };
 
 
