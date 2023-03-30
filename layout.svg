@@ -398,8 +398,6 @@
                     <g transform="matrix(0.344022,-0.0947595,0.0945048,0.343099,902.477,1252.56)">
                         <use id="_Image75_" serif:id="_Image75" xlink:href="#_Image64" x="0" y="0" width="53px" height="84px"/>
                         <g transform="matrix(0.648303,-0.00124844,0.00137211,0.715959,54.9734,54.7577)">
-                            <g transform="matrix(50,0,0,50,13.5498,0)">
-                            </g>
                             <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">i</text>
                         </g>
                     </g>
@@ -672,6 +670,9 @@
                     </g>
                     <g transform="matrix(0.822018,-0.225422,0.225422,0.822018,990.743,1261.86)">
                         <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">`~</text>
+                    </g>
+                    <g transform="matrix(0.668402,-0.186621,0.186621,0.668402,876.999,1194.61)">
+                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">⇧</text>
                     </g>
                 </g>
             </g>
