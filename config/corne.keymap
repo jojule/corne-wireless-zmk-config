@@ -92,7 +92,7 @@
                 };
                 combo_mo3 {
                     timeout-ms = <50>;
-                    key-positions = <24 25>;
+                    key-positions = <25 26>;
                     bindings = <&mo 3>;
                 };
         };
