@@ -9,6 +9,14 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/mouse.h>
 
+&mmv {
+    acceleration-exponent=<1>;
+};
+
+&mwh {
+    acceleration-exponent=<1>;
+};
+
 / {
         behaviors {
                 ht: holdtap {
