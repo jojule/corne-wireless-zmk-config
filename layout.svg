@@ -123,8 +123,8 @@
                     <g transform="matrix(-0.822157,0.224917,0.224917,0.822157,955.421,1266.78)">
                         <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">=+</text>
                     </g>
-                    <g transform="matrix(-0.822157,0.224917,0.224917,0.822157,1028.57,1249.47)">
-                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">↖</text>
+                    <g transform="matrix(-0.822157,0.224917,0.224917,0.822157,1027.65,1245.94)">
+                        <text x="0px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:50px;fill:rgb(35,31,32);">⇇</text>
                     </g>
                 </g>
                 <g transform="matrix(-0.999022,0.044215,0.044215,0.999022,3130.53,287.013)">
@@ -339,8 +339,8 @@
                     <g transform="matrix(-0.822157,0.224917,0.224917,0.822157,934.279,1260.51)">
                         <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">]}</text>
                     </g>
-                    <g transform="matrix(-0.822157,0.224917,0.224917,0.822157,1034.05,1246.08)">
-                        <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">↘</text>
+                    <g transform="matrix(-0.822157,0.224917,0.224917,0.822157,1027.14,1246.61)">
+                        <text x="0px" y="0px" style="font-family:'Menlo-Regular', 'Menlo', monospace;font-size:50px;fill:rgb(35,31,32);">⇉</text>
                     </g>
                 </g>
             </g>
