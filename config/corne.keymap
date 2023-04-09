@@ -9,14 +9,28 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/mouse.h>
 
+#undefine MOVE_UP 
+#undefine MOVE_DOWN 
+#undefine MOVE_LEFT 
+#undefine MOVE_RIGHT 
+#define MOVE_UP MOVE_VERT(-3000)
+#define MOVE_DOWN MOVE_VERT(3000)
+#define MOVE_LEFT MOVE_HOR(-3000)
+#define MOVE_RIGHT MOVE_HOR(3000)
+
+#undefine SCROLL_UP 
+#undefine SCROLL_RIGHT 
+#define SCROLL_UP SCROLL_VERT(40)
+#define SCROLL_RIGHT SCROLL_HOR(40)
+
 &mmv {
     acceleration-exponent=<1>;
-    time-to-max-speed-ms = <1500>;
+    time-to-max-speed-ms = <1000>;
 };
 
 &mwh {
     acceleration-exponent=<1>;
-    time-to-max-speed-ms = <1500>;
+    time-to-max-speed-ms = <1000>;
 };
 
 / {
