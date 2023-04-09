@@ -24,12 +24,12 @@
 #define SCROLL_DOWN SCROLL_VERT(-40)
 
 &mmv {
-    acceleration-exponent=<1.5>;
+    acceleration-exponent=<2>;
     time-to-max-speed-ms = <1500>;
 };
 
 &mwh {
-    acceleration-exponent=<1.5>;
+    acceleration-exponent=<2>;
     time-to-max-speed-ms = <1500>;
 };
 
