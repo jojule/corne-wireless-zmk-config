@@ -13,24 +13,24 @@
 #undef MOVE_DOWN 
 #undef MOVE_LEFT 
 #undef MOVE_RIGHT 
-#define MOVE_UP MOVE_VERT(-3000)
-#define MOVE_DOWN MOVE_VERT(3000)
-#define MOVE_LEFT MOVE_HOR(-3000)
-#define MOVE_RIGHT MOVE_HOR(3000)
+#define MOVE_UP MOVE_VERT(-4000)
+#define MOVE_DOWN MOVE_VERT(4000)
+#define MOVE_LEFT MOVE_HOR(-4000)
+#define MOVE_RIGHT MOVE_HOR(4000)
 
 #undef SCROLL_UP 
-#undef SCROLL_RIGHT 
+#undef SCROLL_DOWN
 #define SCROLL_UP SCROLL_VERT(40)
-#define SCROLL_RIGHT SCROLL_HOR(40)
+#define SCROLL_DOWN SCROLL_VERT(-40)
 
 &mmv {
-    acceleration-exponent=<1>;
-    time-to-max-speed-ms = <1000>;
+    acceleration-exponent=<1.5>;
+    time-to-max-speed-ms = <1500>;
 };
 
 &mwh {
-    acceleration-exponent=<1>;
-    time-to-max-speed-ms = <1000>;
+    acceleration-exponent=<1.5>;
+    time-to-max-speed-ms = <1500>;
 };
 
 / {
