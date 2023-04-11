@@ -35,6 +35,16 @@
 
 / {
         behaviors {
+                htfast: holdtapfast {
+                        compatible = "zmk,behavior-hold-tap";
+                        label = "THUMB_HOLD_TAPS_FAST";
+                        #binding-cells = <2>;
+                        tapping-term-ms = <100>;
+                        flavor = "balanced";
+                        global-quick-tap;
+                        quick-tap-ms = <0>;
+                        bindings = <&kp>, <&kp>;
+                };
                 ht: holdtap {
                         compatible = "zmk,behavior-hold-tap";
                         label = "THUMB_HOLD_TAPS";
@@ -129,7 +139,7 @@
    &none &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp SEMI &none
    &none &kp A &kp R &kp S &kp T &kp D   &kp H &kp N  &kp E     &kp I   &kp O    &none
    &none &ht LSHFT Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &ht RSHFT FSLH &none
-   &ht LCTRL TAB &ht LALT ESC &ht LGUI BSPC   &kp SPACE &mo 2 &ht RGUI RET
+   &ht LCTRL TAB &ht LALT ESC &ht LGUI BSPC   &kp SPACE &mo 2 &htfast RGUI RET
                         >;
                 };
                 lower_layer {
