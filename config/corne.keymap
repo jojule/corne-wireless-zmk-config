@@ -129,14 +129,14 @@
    &none &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp SEMI &none
    &none &kp A &kp R &kp S &kp T &kp D   &kp H &kp N  &kp E     &kp I   &kp O    &none
    &none &ht LSHFT Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &ht RSHFT FSLH &none
-   &ht LCTRL TAB &ht LALT ESC &ht LGUI BSPC   &ht LSHFT SPACE &mo 2 &ht RGUI RET
+   &ht LCTRL TAB &ht LALT ESC &ht LGUI BSPC   &kp SPACE &mo 2 &ht RGUI RET
                         >;
                 };
                 lower_layer {
                         bindings = <
    &none &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10   &none
    &none &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1  &none   &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS     &trans      &kp LEFT &kp DOWN &kp UP &kp RIGHT &none
-   &none &ht LSHFT C_BRIGHTNESS_DEC       &kp C_BRIGHTNESS_INC       &kp C_VOL_DN       &kp C_VOL_UP       &kp C_PLAY_PAUSE         &trans   &kp HOME &kp PG_DN &kp PG_UP &kp END &none
+   &none &ht LSHFT C_BRIGHTNESS_DEC       &kp C_BRIGHTNESS_INC       &kp C_VOL_DN       &kp C_VOL_UP       &kp C_PLAY_PAUSE         &trans   &kp HOME &kp PG_DN &kp PG_UP &ht RSHFT END &none
           &trans      &trans  &trans  &trans      &trans  &trans
                         >;
                 };
@@ -145,7 +145,7 @@
                         bindings = <
    &none &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &none
    &none &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &none
-   &none &kp GRAVE   &coe &oe &ae &cae &kp MINUS &kp EQUAL  &kp APOS        &kp LBKT &kp RBKT &none
+   &none &ht LSHFT EGRAVE   &coe &oe &ae &cae &kp MINUS &kp EQUAL  &kp APOS        &kp LBKT &ht RSHFT BKT &none
                     	     &trans  &trans  &trans  &trans  &trans   &kp BSLH
                         >;
                 };
@@ -154,7 +154,7 @@
                         bindings = <
    &none &none &none &none &none &none  &none &none &none &none &none &none
    &none &none &none &mkp RCLK &mkp LCLK &mkp RCLK  &none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &none
-   &none &none &none &mwh SCROLL_UP &mwh SCROLL_DOWN &none  &none &none &none &none &none &none
+   &none &kp LSHFT &none &mwh SCROLL_UP &mwh SCROLL_DOWN &none  &none &none &none &none &kp RSHFT &none
    &trans  &trans  &trans  &trans  &trans &trans   
                         >;
                 };
