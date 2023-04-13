@@ -668,6 +668,13 @@
                             <text x="11656.8px" y="6619.74px" style="font-family:'AppleSymbols', 'Apple Symbols';font-size:345.309px;fill:rgb(35,31,32);">2</text>
                         </g>
                     </g>
+                    <g transform="matrix(0.70765,-0.193591,0.21322,0.779403,1000.39,1253.26)">
+                        <g id="B18" serif:id="B">
+                            <g transform="matrix(50,0,0,50,35.9619,0)">
+                            </g>
+                            <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">Ä</text>
+                        </g>
+                    </g>
                 </g>
                 <g transform="matrix(1,0,0,1,126.575,130.409)">
                     <path d="M866.661,1151.04C908.924,1138.32 952.16,1126.78 996.411,1116.49C1005.54,1116.12 1012.32,1119.57 1015.96,1128.11C1028.47,1167.02 1039.09,1206.43 1047.56,1246.43C1048.57,1254.57 1045.99,1261.45 1035.88,1265.69C995.26,1279.12 954.266,1291.08 912.914,1301.61C901.333,1303.84 894.002,1300.76 890.923,1292.37C878.497,1251.67 867.004,1210.63 856.46,1169.25C854.791,1159.59 858.892,1154.02 866.661,1151.04Z" style="fill:url(#_Linear80);stroke:rgb(55,55,55);stroke-width:0.83px;"/>
@@ -960,6 +967,11 @@
                         <g transform="matrix(345.309,0,0,345.309,11955.7,6619.74)">
                         </g>
                         <text x="11656.8px" y="6619.74px" style="font-family:'AppleSymbols', 'Apple Symbols';font-size:345.309px;fill:rgb(35,31,32);">F1</text>
+                    </g>
+                    <g transform="matrix(0.70765,-0.193591,0.21322,0.779403,1000.08,1253.92)">
+                        <g transform="matrix(50,0,0,50,39.5996,0)">
+                        </g>
+                        <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">Ö</text>
                     </g>
                 </g>
                 <g transform="matrix(1,0,0,1,-453.03,-6.79162)">
