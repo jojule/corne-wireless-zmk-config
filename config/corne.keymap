@@ -150,7 +150,7 @@
                         bindings = <
    &none &kp LS(GRAVE) &kp GRAVE &kp LS(LBKT) &kp LBKT &kp LPAR   &kp RPAR &kp RBKT &kp LS(RBKT) &kp APOS &kp LS(APOS) &none
    &none &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT   &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LS(BSLH) &kp BSLH &none
-   &none &caps_word &coe &cae &none &kp EQUAL  &kp LS(MINUS) &tog 4 &ae &oe &kp RGUI &none
+   &none &caps_word &coe &cae &none &kp EQUAL  &kp LS(MINUS) &tog 4 &ae &oe &sk RGUI &none
                     	     &trans  &trans  &trans  &trans  &trans   &trans
                         >;
                 };
