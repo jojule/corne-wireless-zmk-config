@@ -134,7 +134,7 @@
    &none &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp SEMI &none
    &none &kp A &kp R &kp S &kp T &kp D   &kp H &kp N  &kp E     &kp I   &kp O    &none
    &none &ht LSHFT Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &ht RSHFT FSLH &none
-   &ht LCTRL TAB &ht LALT ESC &ht LGUI BSPC   &kp SPACE &mo SYM_LAYER &ht RSHFT ENTER
+   &ht LCTRL TAB &ht LALT ESC &ht LGUI BSPC   &kp SPACE &mo SYM_LAYER &ht RSHFT RET
                         >;
                 };
 
@@ -158,7 +158,7 @@
 
                 system_layer {
                         bindings = <
-   &none &bt BT_SEL 1  &kp F7  &kp F8  &kp F9  &kp F10   &none  &mwh SCROLL_RIGHT RCLK &mwh SCROLL_UP &mwh SCROLL_DOWN &mwh SCROLL_LEFT &none
+   &none &bt BT_SEL 1  &kp F7  &kp F8  &kp F9  &kp F10   &none  &mwh SCROLL_RIGHT &mwh SCROLL_UP &mwh SCROLL_DOWN &mwh SCROLL_LEFT &none
    &none &bt BT_SEL 0 &kp F4 &kp F5 &kp F6 &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS     &trans      &kp LEFT &kp DOWN &kp UP &kp RIGHT &none
    &none &kp LSHFT &kp F1 &kp F2 &kp F3 &bt BT_CLR   &kp C_BRIGHTNESS_DEC &kp C_BRIGHTNESS_INC &kp C_VOL_DN &kp C_VOL_UP &ht RSHFT C_PLAY_PAUSE &none 
    &trans  &trans  &trans  &trans  &trans &trans   
