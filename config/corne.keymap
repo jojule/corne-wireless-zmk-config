@@ -117,6 +117,11 @@
                 combo_mo1 {
                     timeout-ms = <50>;
                     key-positions = <39 40>;
+                    bindings = <&mo NAV_LAYER>;
+                };
+                combo_mo2 {
+                    timeout-ms = <50>;
+                    key-positions = <40 41>;
                     bindings = <&mo SYSTEM_LAYER>;
                 };
         };
@@ -129,15 +134,15 @@
    &none &kp Q &kp W &kp F &kp P &kp G   &kp J &kp L  &kp U     &kp Y   &kp SEMI &none
    &none &kp A &kp R &kp S &kp T &kp D   &kp H &kp N  &kp E     &kp I   &kp O    &none
    &none &ht LSHFT Z &kp X &kp C &kp V &kp B   &kp K &kp M  &kp COMMA &kp DOT &ht RSHFT FSLH &none
-   &ht LCTRL TAB &ht LALT ESC &ht LGUI BSPC   &mo NAV_LAYER &mo SYM_LAYER &kp SPACE
+   &ht LCTRL TAB &ht LALT ESC &ht LGUI BSPC   &kp SPACE &mo SYM_LAYER &kp ENTER
                         >;
                 };
 
                 nav_layer {
                         bindings = <
    &none &kp KP_MULTIPLY &kp N7 &kp N8 &kp N9 &kp KP_PLUS  &mkp LCLK &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT &none
-   &none &kp FSLH &kp N4 &kp N5 &kp N6 &kp MINUS  &kp ENTER &kp LEFT &kp DOWN &kp UP &kp RIGHT &none
-   &none &kp N0 &kp N1 &kp N2 &kp N3 &kp DOT  &kp SPACE &kp HOME &kp PG_DN &kp PG_UP &ht RSHFT END &none
+   &none &kp FSLH &kp N4 &kp N5 &kp N6 &kp MINUS  &mkp RCLK &kp LEFT &kp DOWN &kp UP &kp RIGHT &none
+   &none &kp N0 &kp N1 &kp N2 &kp N3 &kp DOT  &none &kp HOME &kp PG_DN &kp PG_UP &ht RSHFT END &none
           &trans      &trans  &trans  &trans      &trans  &trans
                         >;
                 };
@@ -153,7 +158,7 @@
 
                 system_layer {
                         bindings = <
-   &none &bt BT_SEL 1  &kp F7  &kp F8  &kp F9  &kp F10   &none  &mkp RCLK &mwh SCROLL_DOWN &mwh SCROLL_UP &none &none
+   &none &bt BT_SEL 1  &kp F7  &kp F8  &kp F9  &kp F10   &none  &mwh SCROLL_RIGHT RCLK &mwh SCROLL_UP &mwh SCROLL_DOWN &mwh SCROLL_LEFT &none
    &none &bt BT_SEL 0 &kp F4 &kp F5 &kp F6 &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS     &trans      &kp LEFT &kp DOWN &kp UP &kp RIGHT &none
    &none &kp LSHFT &kp F1 &kp F2 &kp F3 &bt BT_CLR   &kp C_BRIGHTNESS_DEC &kp C_BRIGHTNESS_INC &kp C_VOL_DN &kp C_VOL_UP &ht RSHFT C_PLAY_PAUSE &none 
    &trans  &trans  &trans  &trans  &trans &trans   
