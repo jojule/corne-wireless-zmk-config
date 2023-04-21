@@ -116,8 +116,6 @@
                 </g>
                 <g transform="matrix(-0.707531,0.194026,0.2137,0.779271,927.47,1271.75)">
                     <g id="B4" serif:id="B">
-                        <g transform="matrix(50,0,0,50,29.7119,0)">
-                        </g>
                         <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">ä</text>
                     </g>
                 </g>
@@ -262,8 +260,6 @@
                     <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">⇞</text>
                 </g>
                 <g transform="matrix(-0.707531,0.194026,0.2137,0.779271,928.383,1273.8)">
-                    <g transform="matrix(50,0,0,50,30.2002,0)">
-                    </g>
                     <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">ö</text>
                 </g>
             </g>
@@ -314,7 +310,7 @@
                 <g transform="matrix(-0.668335,0.18686,0.18686,0.668335,1010.21,1160.15)">
                     <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">⇧</text>
                 </g>
-                <g transform="matrix(-0.822157,0.224917,0.224917,0.822157,944.537,1271.07)">
+                <g transform="matrix(-0.822157,0.224917,0.224917,0.822157,1025.45,1206.63)">
                     <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">⌘</text>
                     <g transform="matrix(1,-2.77556e-17,2.77556e-17,1,21.8107,-30.3245)">
                         <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:24.442px;fill:rgb(35,31,32);">r</text>
@@ -566,7 +562,7 @@
                 <g transform="matrix(1.48848,-0.408186,0.408186,1.48848,927.067,1224.79)">
                     <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">Z</text>
                 </g>
-                <g transform="matrix(0.669047,-0.183473,0.183473,0.669047,996.777,1247.64)">
+                <g transform="matrix(0.669047,-0.183473,0.183473,0.669047,853.95,1122.96)">
                     <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">⇪</text>
                 </g>
                 <g transform="matrix(0.668402,-0.186621,0.186621,0.668402,877.684,1194.61)">
@@ -629,7 +625,7 @@
                     <use id="_Image94_" serif:id="_Image94" xlink:href="#_Image100" x="0" y="0" width="83px" height="83px"/>
                 </g>
             </g>
-            <g transform="matrix(0.266857,-1.32203e-07,1.32203e-07,0.266857,224.699,853.46)">
+            <g transform="matrix(0.266857,-1.32203e-07,1.32203e-07,0.266857,221.01,848.4)">
                 <g>
                     <use id="_Image101_" serif:id="_Image101" xlink:href="#_Image101" x="0" y="0" width="67px" height="66px"/>
                 </g>
@@ -702,6 +698,11 @@
             </g>
             <g transform="matrix(0.860428,-0.50957,0.50957,0.860428,-2237.03,1225.39)">
                 <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">{</text>
+            </g>
+            <g transform="matrix(0.860428,-0.50957,0.50957,0.860428,-2282.29,1304.06)">
+                <g transform="matrix(50,0,0,50,15.6494,0)">
+                </g>
+                <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">.</text>
             </g>
             <g transform="matrix(0.860742,-0.509042,0.509042,0.860742,-1696.2,931.251)">
                 <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">}</text>
