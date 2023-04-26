@@ -133,7 +133,7 @@
                         bindings = <
    &none
    &kp Q &kp W &kp F &kp P &kp G   
-   &kp J &kp L &kp U &kp Y &kp SEMI
+   &kp J &kp L &kp U &kp Y &ht RGUI SEMI
    &none
 
    &none

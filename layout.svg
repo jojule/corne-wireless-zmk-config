@@ -310,12 +310,6 @@
                 <g transform="matrix(-0.668335,0.18686,0.18686,0.668335,1010.21,1160.15)">
                     <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">⇧</text>
                 </g>
-                <g transform="matrix(-0.822157,0.224917,0.224917,0.822157,1025.45,1206.63)">
-                    <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">⌘</text>
-                    <g transform="matrix(1,-2.77556e-17,2.77556e-17,1,21.8107,-30.3245)">
-                        <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:24.442px;fill:rgb(35,31,32);">r</text>
-                    </g>
-                </g>
             </g>
         </g>
         <g id="left" transform="matrix(1,0,0,1,-300,-675)">
@@ -570,6 +564,18 @@
                 </g>
             </g>
         </g>
+        <g transform="matrix(0.822157,0.224917,-0.224917,0.822157,2307.82,854.035)">
+            <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">⌘</text>
+            <g transform="matrix(1,-2.77556e-17,2.77556e-17,1,21.8107,-30.3245)">
+                <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:24.442px;fill:rgb(35,31,32);">r</text>
+            </g>
+        </g>
+        <g transform="matrix(0.822157,0.224917,-0.224917,0.822157,2402.67,495.427)">
+            <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">⌘</text>
+            <g transform="matrix(1,-2.77556e-17,2.77556e-17,1,21.8107,-30.3245)">
+                <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:24.442px;fill:rgb(35,31,32);">r</text>
+            </g>
+        </g>
         <g id="Bluetooth">
             <g transform="matrix(0.668022,0.0295655,-0.0295655,0.668022,-185.097,-110.601)">
                 <g transform="matrix(0.479944,-0.154409,0.153995,0.478656,895.565,1244.02)">
@@ -700,8 +706,6 @@
                 <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">{</text>
             </g>
             <g transform="matrix(0.860428,-0.50957,0.50957,0.860428,-2282.29,1304.06)">
-                <g transform="matrix(50,0,0,50,15.6494,0)">
-                </g>
                 <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">.</text>
             </g>
             <g transform="matrix(0.860742,-0.509042,0.509042,0.860742,-1696.2,931.251)">
