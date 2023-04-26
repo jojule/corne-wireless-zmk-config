@@ -561,13 +561,7 @@
         <g transform="matrix(-0.33309,-1.18289,1.18289,-0.33309,1491.11,762.855)">
             <text x="0px" y="0px" style="font-family:'AppleSymbols', 'Apple Symbols';font-size:50px;fill:rgb(35,31,32);">⟰</text>
         </g>
-        <g transform="matrix(0.822157,0.224917,-0.224917,0.822157,2307.82,854.035)">
-            <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">⌘</text>
-            <g transform="matrix(1,-2.77556e-17,2.77556e-17,1,21.8107,-30.3245)">
-                <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:24.442px;fill:rgb(35,31,32);">r</text>
-            </g>
-        </g>
-        <g transform="matrix(0.822157,0.224917,-0.224917,0.822157,2402.67,495.427)">
+        <g transform="matrix(0.822157,0.224917,-0.224917,0.822157,2405.75,496.765)">
             <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">⌘</text>
             <g transform="matrix(1,-2.77556e-17,2.77556e-17,1,21.8107,-30.3245)">
                 <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:24.442px;fill:rgb(35,31,32);">r</text>
@@ -635,7 +629,7 @@
             </g>
         </g>
         <g id="Function-keys" serif:id="Function keys" transform="matrix(0.0578733,-0.0158324,0.0158324,0.0578733,135.323,553.906)">
-            <g transform="matrix(0.860742,0.509042,-0.509042,0.860742,36613.3,9355.63)">
+            <g transform="matrix(0.860742,0.509042,-0.509042,0.860742,36491.5,9497.64)">
                 <text x="0px" y="0px" style="font-family:'AppleSymbols', 'Apple Symbols';font-size:345.309px;fill:rgb(35,31,32);">F10</text>
             </g>
             <g transform="matrix(0.860742,0.509042,-0.509042,0.860742,34449.2,7306.25)">
