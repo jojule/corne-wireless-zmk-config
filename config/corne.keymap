@@ -117,11 +117,6 @@
                 combo_mo1 {
                     timeout-ms = <50>;
                     key-positions = <39 40>;
-                    bindings = <&mo NAV_LAYER>;
-                };
-                combo_mo2 {
-                    timeout-ms = <50>;
-                    key-positions = <40 41>;
                     bindings = <&mo SYSTEM_LAYER>;
                 };
         };
@@ -147,7 +142,7 @@
    &none
 
    &ht LCTRL TAB &ht LALT ESC &ht LGUI BSPC   
-   &kp SPACE &mo SYM_LAYER &ht RSHFT RET
+   &lt NAV_LAYER SPACE &mo SYM_LAYER &ht RSHFT RET
                         >;
                 };
 
