@@ -161,7 +161,7 @@
 
    &none
    &kp LSHFT &kp LBRC &kp LBKT &kp RBKT &kp RBRC
-   &kp LGUI(TAB) &kp HOME &kp PG_DN &kp PG_UP &ht RSHFT END
+   &kp LG(TAB) &kp HOME &kp PG_DN &kp PG_UP &ht RSHFT END
    &none
 
    &trans &trans &trans
