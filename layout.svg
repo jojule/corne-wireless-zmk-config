@@ -567,6 +567,14 @@
                 <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:24.442px;fill:rgb(35,31,32);">r</text>
             </g>
         </g>
+        <g transform="matrix(0.547863,0.189591,-0.189591,0.547863,1633.38,689.083)">
+            <g transform="matrix(0.997815,-0.0660726,0.0660726,0.997815,2.46025,0.317505)">
+                <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">⌘</text>
+            </g>
+            <g transform="matrix(0.954738,-0.0632202,0.0632202,0.954738,27.3068,-2.13203)">
+                <text x="0px" y="0px" style="font-family:'LucidaGrande', 'Lucida Grande', sans-serif;font-weight:500;font-size:50px;fill:rgb(35,31,32);">⇥</text>
+            </g>
+        </g>
         <g id="Bluetooth">
             <g transform="matrix(0.668022,0.0295655,-0.0295655,0.668022,-185.097,-110.601)">
                 <g transform="matrix(0.479944,-0.154409,0.153995,0.478656,895.565,1244.02)">
@@ -592,9 +600,9 @@
                 <g>
                     <use id="_Image75_3" serif:id="_Image75" xlink:href="#_Image98" x="0" y="0" width="53px" height="84px"/>
                 </g>
-                <g transform="matrix(0.0820508,0.000143603,-0.000143115,0.0822716,43.7002,20.4252)">
-                    <g transform="matrix(1.97664,0.540749,-0.540749,1.97664,-23810,-29298.3)">
-                        <use xlink:href="#_Image99" x="14981.5" y="10660.4" width="305px" height="304px"/>
+                <g transform="matrix(0.162108,0.0447721,-0.0446518,0.162544,46.8715,10.1224)">
+                    <g>
+                        <use id="_Image99_" serif:id="_Image99" xlink:href="#_Image99" x="0" y="0" width="305px" height="304px"/>
                     </g>
                 </g>
             </g>
