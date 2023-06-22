@@ -72,6 +72,11 @@
             key-positions = <39 40>;
             bindings = <&mo 3>;
         };
+
+        backspace_combo {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <22 21 13 14>;
+        };
     };
 
     keymap {
