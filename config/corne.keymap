@@ -29,6 +29,12 @@
 #define SYM_LAYER 2
 #define SYSTEM_LAYER 3
 
+&mt {
+    tapping-term-ms = <200>;
+    quick_tap_ms = <0>;
+    flavor = "tap-preferred";
+};
+
 &mmv {
     acceleration-exponent = <2>;
     time-to-max-speed-ms = <1500>;
