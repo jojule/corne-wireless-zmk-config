@@ -77,6 +77,21 @@
             bindings = <&kp BACKSPACE>;
             key-positions = <22 21>;
         };
+
+        undo_combo {
+            bindings = <&kp K_UNDO>;
+            key-positions = <25 26>;
+        };
+
+        copy_combo {
+            bindings = <&kp K_COPY>;
+            key-positions = <27 26>;
+        };
+
+        past_combo {
+            bindings = <&kp K_PASTE>;
+            key-positions = <28 29>;
+        };
     };
 
     keymap {
@@ -86,7 +101,7 @@
             bindings = <
 &none       &kp Q       &kp W          &kp E             &kp R               &kp T          &kp Y            &kp U          &kp I       &kp O          &kp P   &none
 &none  &mt LGUI A  &mt LALT S    &mt LCTRL D       &mt LSHFT F               &kp G          &kp H      &mt LSHFT J    &mt LCTRL K  &mt LALT L  &mt LGUI SEMI  &trans
-&none       &kp Z       &kp X   &mt K_COPY C     &mt K_PASTE V               &kp B          &kp N            &kp M      &kp COMMA     &kp DOT       &kp FSLH   &none
+&none       &kp Z       &kp X          &kp C             &kp V               &kp B          &kp N            &kp M      &kp COMMA     &kp DOT       &kp FSLH   &none
                                &ht LCTRL ESC  &ht LEFT_ALT TAB  &ht LEFT_GUI ENTER    &lt 1 SPACE  &lt 2 BACKSPACE  &ht LCTRL DEL
             >;
         };
@@ -94,7 +109,7 @@
         nav_layer {
             bindings = <
 &none   &kp TILDE  &kp GRAVE   &kp PIPE   &kp BSLH                              &none    &mwh SCROLL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &none
-&none  &caps_word      &none  &mkp RCLK  &mkp LCLK  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS      &mwh SCROLL_UP        &kp LEFT        &kp DOWN        &kp UP        &kp RIGHT  &none
+&none  &caps_word      &none  &mkp RCLK  &mkp LCLK  &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS            &kp LEFT        &kp DOWN          &kp UP     &kp RIGHT           &trans  &none
 &none   &kp LSHFT   &kp LBRC   &kp LBKT   &kp RBKT                           &kp RBRC         &kp LG(TAB)        &kp HOME       &kp PG_DN     &kp PG_UP    &ht RSHFT END  &none
                                  &trans     &trans                             &trans              &trans          &trans          &trans
             >;
