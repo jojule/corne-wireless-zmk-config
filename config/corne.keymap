@@ -14,8 +14,8 @@
 #undef MOVE_DOWN 
 #undef MOVE_LEFT 
 #undef MOVE_RIGHT 
-#define MOVE_UP MOVE_VERT(-4000)
-#define MOVE_DOWN MOVE_VERT(4000)
+#define MOVE_UP MOVE_VERT(-6000)
+#define MOVE_DOWN MOVE_VERT(6000)
 #define MOVE_LEFT MOVE_HOR(-6000)
 #define MOVE_RIGHT MOVE_HOR(6000)
 
@@ -30,12 +30,10 @@
 
 
 &mmv {
-    acceleration-exponent=<1.3>;
     time-to-max-speed-ms = <500>;
 };
 
 &mwh {
-    acceleration-exponent=<1.3>;
     time-to-max-speed-ms = <500>;
 };
 
