@@ -401,7 +401,7 @@
                     <path d="M863.478,1156.09C904.706,1141.54 954.82,1127.68 1000.25,1119.46C1009.38,1119.09 1012.32,1119.57 1015.96,1128.11C1029.45,1166.75 1040.23,1206.13 1047.56,1246.43C1048.57,1254.57 1049.98,1259.4 1041.5,1262.85C998.989,1280.14 943.399,1292.49 903.675,1299.69C896.23,1301.04 894.002,1300.76 890.923,1292.37C876.162,1254.12 864.596,1213.16 856.46,1169.25C854.791,1159.59 855.708,1159.07 863.478,1156.09Z" style="fill:url(#_Radial69);"/>
                 </g>
                 <g transform="matrix(1.48848,-0.408186,0.408186,1.48848,925.556,1223.97)">
-                    <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">C</text>
+                    <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;">C</text>
                 </g>
             </g>
             <g transform="matrix(1,0,0,1,126.575,130.409)">
@@ -584,21 +584,41 @@
                     <text x="0px" y="0px" style="font-family:'AppleSymbols', 'Apple Symbols';font-size:24.613px;fill:rgb(35,31,32);">╳</text>
                 </g>
             </g>
-            <g transform="matrix(0.343263,-0.0939062,0.0939058,0.343263,537.379,692.754)">
+            <g transform="matrix(0.343263,-0.0939062,0.0939058,0.343263,542.912,689.052)">
                 <use id="_Image75_1" serif:id="_Image75" xlink:href="#_Image98" x="0" y="0" width="53px" height="84px"/>
-                <g transform="matrix(0.561966,-0.00108218,0.00118938,0.620613,50.6703,52.8425)">
-                    <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">M</text>
+                <g transform="matrix(0.561966,-0.00108218,0.00118938,0.620613,50.8329,52.887)">
+                    <g transform="matrix(50,0,0,50,71.3623,0)">
+                    </g>
+                    <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;stroke:white;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:2;">Ma</text>
                 </g>
             </g>
             <g transform="matrix(0.344022,-0.0947595,0.0945048,0.343099,713.888,658.956)">
                 <use id="_Image75_2" serif:id="_Image75" xlink:href="#_Image98" x="0" y="0" width="53px" height="84px"/>
-                <g transform="matrix(0.648303,-0.00124844,0.00137211,0.715959,54.9734,54.7577)">
-                    <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">i</text>
+                <g transform="matrix(0.714038,-0.00137503,0.0013721,0.715959,54.309,54.759)">
+                    <g transform="matrix(50,0,0,50,67.749,0)">
+                    </g>
+                    <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">VP</text>
+                </g>
+            </g>
+            <g transform="matrix(0.344022,-0.0947595,0.0945048,0.343099,668.475,500.799)">
+                <use id="_Image75_3" serif:id="_Image75" xlink:href="#_Image98" x="0" y="0" width="53px" height="84px"/>
+                <g transform="matrix(0.714038,-0.00137503,0.0013721,0.715959,54.309,54.759)">
+                    <g transform="matrix(50,0,0,50,61.1572,0)">
+                    </g>
+                    <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">P<tspan x="31.445px " y="0px ">a</tspan></text>
+                </g>
+            </g>
+            <g transform="matrix(0.344022,-0.0947595,0.0945048,0.343099,496.075,527.483)">
+                <use id="_Image75_4" serif:id="_Image75" xlink:href="#_Image98" x="0" y="0" width="53px" height="84px"/>
+                <g transform="matrix(0.714038,-0.00137503,0.0013721,0.715959,54.309,54.759)">
+                    <g transform="matrix(50,0,0,50,63.5498,0)">
+                    </g>
+                    <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">Ph</text>
                 </g>
             </g>
             <g transform="matrix(0.344022,-0.0947595,0.0945048,0.343099,881.803,640.59)">
                 <g>
-                    <use id="_Image75_3" serif:id="_Image75" xlink:href="#_Image98" x="0" y="0" width="53px" height="84px"/>
+                    <use id="_Image75_5" serif:id="_Image75" xlink:href="#_Image98" x="0" y="0" width="53px" height="84px"/>
                 </g>
                 <g transform="matrix(0.162108,0.0447721,-0.0446518,0.162544,46.8715,10.1224)">
                     <g>
