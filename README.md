@@ -1,8 +1,8 @@
 # Corne keyboard
-![](corne.webp)
+![Picture of my Corne keyboard build](corne.webp)
 
 ## Config
-![](layout.svg)
+![Keyboard layout](layout.svg)
 
 ## Kit
 [Parts or pre-built](https://typeractive.xyz/pages/build)
