@@ -592,6 +592,16 @@
                     <path d="M8319.16,8852.13L8464.25,8935.1L8412.78,8751.34L8429.34,8744.56L8605.62,8842.89L8534.21,8975.72L8664.98,9050.63L8562.84,9226.54L8547.62,9231.72L8494.34,9053.43L8416.55,9191.13L8370.29,9165.8L8470.13,8995.8L8296.53,8898.44L8319.16,8852.13ZM8486.23,8830.96L8511.46,8920.99L8545.57,8861.02L8486.23,8830.96ZM8541.95,9036.23L8567.19,9126.25L8601.3,9066.29L8541.95,9036.23Z" style="fill:rgb(9,0,0);stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
                 </g>
             </g>
+            <g transform="matrix(0.343263,-0.0939062,0.0939058,0.343263,336.84,599.528)">
+                <g transform="matrix(0.561966,-0.00108218,0.00118938,0.620613,50.8329,52.887)">
+                    <g transform="matrix(50,0,0,50,59.4238,0)">
+                    </g>
+                    <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;stroke:white;stroke-width:0.28px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:2;">16</text>
+                </g>
+                <g transform="matrix(0.162622,0.0444884,-0.0444882,0.162622,-953.742,-1797.32)">
+                    <path d="M8319.16,8852.13L8464.25,8935.1L8412.78,8751.34L8429.34,8744.56L8605.62,8842.89L8534.21,8975.72L8664.98,9050.63L8562.84,9226.54L8547.62,9231.72L8494.34,9053.43L8416.55,9191.13L8370.29,9165.8L8470.13,8995.8L8296.53,8898.44L8319.16,8852.13ZM8486.23,8830.96L8511.46,8920.99L8545.57,8861.02L8486.23,8830.96ZM8541.95,9036.23L8567.19,9126.25L8601.3,9066.29L8541.95,9036.23Z" style="fill:rgb(9,0,0);stroke:black;stroke-width:1px;stroke-linejoin:round;"/>
+                </g>
+            </g>
             <g transform="matrix(0.344022,-0.0947595,0.0945048,0.343099,713.888,658.956)">
                 <g transform="matrix(0.714038,-0.00137503,0.0013721,0.715959,54.309,54.759)">
                     <text x="0px" y="0px" style="font-family:'ArialRoundedMTBold', 'Arial Rounded MT Bold', sans-serif;font-size:50px;fill:rgb(35,31,32);">VP</text>
