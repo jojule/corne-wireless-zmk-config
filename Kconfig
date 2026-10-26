@@ -1,0 +1,6 @@
+config CORNE_UTILITY
+    bool "Corne keymap reference and named status displays"
+    default y
+    depends on ZMK_DISPLAY
+    select LV_USE_CANVAS
+    select LV_USE_IMAGE

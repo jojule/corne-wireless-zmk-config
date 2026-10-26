@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: MIT
+description: Internal display-state receiver for the existing encrypted split link
+compatible: "corne,utility-relay"
+include: two_param.yaml

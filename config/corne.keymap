@@ -27,6 +27,7 @@
 #define NAV_LAYER 1
 #define SYM_LAYER 2
 #define SYSTEM_LAYER 3
+#define LOOKUP_LAYER 4
 
 
 &mmv {
@@ -39,6 +40,19 @@
 
 / {
         behaviors {
+                lookup: lookup {
+                        compatible = "corne,lookup";
+                        #binding-cells = <1>;
+                };
+
+                // Display synchronization over the existing split connection.
+                // This behavior is never bound to a physical key.
+                cu_relay: cu_relay {
+                        compatible = "corne,utility-relay";
+                        label = "cu_relay";
+                        #binding-cells = <2>;
+                };
+
                 ht: holdtap {
                         compatible = "zmk,behavior-hold-tap";
                         label = "THUMB_HOLD_TAPS";
@@ -117,6 +131,8 @@
                     timeout-ms = <50>;
                     key-positions = <39 40>;
                     bindings = <&mo SYSTEM_LAYER>;
+                    // Combos precede the keymap; never execute this in lookup.
+                    layers = <0 1 2 3>;
                 };
         };
 
@@ -124,6 +140,7 @@
                 compatible = "zmk,keymap";
 
                 default_layer {
+                        display-name = "Typing";
                         bindings = <
    &none
    &kp Q &kp W &kp F &kp P &kp G   
@@ -146,9 +163,10 @@
                 };
 
                 nav_layer {
+                        display-name = "Navigate";
                         bindings = <
    &none 
-   &kp TILDE &kp GRAVE &kp PIPE &kp BSLH &none
+   &kp TILDE &kp GRAVE &kp PIPE &kp BSLH &lookup 0
    &msc SCROLL_DOWN &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_UP &mmv MOVE_RIGHT
    &none
 
@@ -168,6 +186,7 @@
                 };
 
                 sym_layer {
+                        display-name = "Symbols";
                         bindings = <
    &none
    &kp N1 &kp N2 &kp N3 &kp N4 &kp N5
@@ -190,6 +209,7 @@
                 };
 
                 system_layer {
+                        display-name = "System";
                         bindings = <
    &none
    &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 
@@ -208,6 +228,33 @@
 
    &trans &trans &trans
    &trans &trans &trans
+                        >;
+                };
+
+                // All positions are opaque, including absent outer columns.
+                // No inspected binding can fall through to keyboard, mouse,
+                // macro, Bluetooth, or output behavior. Nav + G exits after
+                // every key is released, leaving all 36 keys inspectable.
+                lookup_layer {
+                        display-name = "Lookup";
+                        bindings = <
+   &lookup 1
+   &lookup 1 &lookup 1 &lookup 1 &lookup 1 &lookup 1
+   &lookup 1 &lookup 1 &lookup 1 &lookup 1 &lookup 1
+   &lookup 1
+
+   &lookup 1
+   &lookup 1 &lookup 1 &lookup 1 &lookup 1 &lookup 1
+   &lookup 1 &lookup 1 &lookup 1 &lookup 1 &lookup 1
+   &lookup 1
+
+   &lookup 1
+   &lookup 1 &lookup 1 &lookup 1 &lookup 1 &lookup 1
+   &lookup 1 &lookup 1 &lookup 1 &lookup 1 &lookup 1
+   &lookup 1
+
+   &lookup 1 &lookup 1 &lookup 1
+   &lookup 1 &lookup 1 &lookup 1
                         >;
                 };
 

@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: MIT
+description: Display-only key lookup and guarded entry
+compatible: "corne,lookup"
+include: one_param.yaml

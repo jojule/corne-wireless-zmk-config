@@ -11,6 +11,8 @@ docker run --rm -i \
   --workdir /workspace/.local-build \
   --entrypoint /bin/bash "$image" -s 2>&1 <<'BUILD' | tee "$repo_dir/.local-build/build.log"
 set -euo pipefail
+# Keep the complete toolchain, including the legend check, inside Docker.
+python3 /workspace/scripts/generate-display-data.py --check
 mkdir -p config
 cp /workspace/config/west.yml config/west.yml
 if [ ! -f .west/config ]; then
@@ -18,6 +20,7 @@ if [ ! -f .west/config ]; then
 fi
 west update --narrow -o=--depth=1
 west zephyr-export
+bash /workspace/scripts/test-utility.sh
 
 python3 - <<'PY' > targets.tsv
 import yaml
@@ -29,7 +32,7 @@ PY
 while IFS=$'\t' read -r board shield; do
   name="${shield%% *}"
   west build -p always -s zmk/app -d "build/$name" -b "$board" -- \
-    -DZMK_CONFIG=/workspace/config -DSHIELD="$shield"
+    -DZMK_CONFIG=/workspace/config -DZMK_EXTRA_MODULES=/workspace -DSHIELD="$shield"
 done < targets.tsv
 
 # Publish artifacts only after every target has built successfully.
@@ -39,9 +42,18 @@ while IFS=$'\t' read -r board shield; do
 done < targets.tsv
 west manifest --freeze --active-only > /workspace/firmware/west-manifest.yml
 mkdir -p /workspace/firmware/config
-cp /workspace/config/* /workspace/firmware/config/
+cp -R /workspace/config/. /workspace/firmware/config/
+mkdir -p /workspace/firmware/utility-source
+cp -R /workspace/src /workspace/include /workspace/dts /workspace/zephyr \
+  /workspace/firmware/utility-source/
+cp /workspace/CMakeLists.txt /workspace/Kconfig /workspace/firmware/utility-source/
 cp /workspace/build.yaml /workspace/firmware/build.yaml
 git -C zmk rev-parse HEAD > /workspace/firmware/zmk-revision.txt
+cd /workspace
+find config src include dts zephyr -type f -print0 | sort -z | \
+  xargs -0 sha256sum > firmware/source-SHA256SUMS
+sha256sum CMakeLists.txt Kconfig build.yaml scripts/generate-display-data.py \
+  scripts/build-local.sh scripts/test-utility.sh >> firmware/source-SHA256SUMS
 cd /workspace/firmware
 sha256sum ./*.uf2 > SHA256SUMS
 cat SHA256SUMS
