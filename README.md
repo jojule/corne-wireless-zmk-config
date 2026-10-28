@@ -4,6 +4,10 @@
 ## Config
 ![Keyboard layout](layout.svg)
 
+On the Typing layer, tap **Q** to type Q or hold it for **Apple Globe** (300 ms,
+balanced hold-tap). Hold Q while pressing another key for iPad Globe shortcuts.
+Globe+Q requires a separate Q binding and is not available with this placement.
+
 ## Kit
 [Parts or pre-built](https://typeractive.xyz/pages/build)
 

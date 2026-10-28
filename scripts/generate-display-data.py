@@ -125,7 +125,8 @@ KEYS: dict[str, tuple[str, tuple[str, ...]]] = {
     "C_VOL_UP": ("V^", ("VOLUME UP",)), "C_VOL_DN": ("Vv", ("VOLUME DOWN",)),
     "C_PLAY_PAUSE": ("PP", ("PLAY /", "PAUSE")),
 }
-MODIFIERS = {
+HOLD_KEYS = {
+    "GLOBE": ("GLB", "GLOBE"),
     "LSHFT": ("SHF", "SHIFT"), "RSHFT": ("SHF", "SHIFT"),
     "LCTRL": ("CTL", "CTRL"), "RCTRL": ("CTL", "CTRL"),
     "LALT": ("ALT", "ALT"), "RALT": ("ALT", "ALT"),
@@ -155,9 +156,9 @@ def legend_for_binding(binding: str) -> Legend:
         return Legend("", lines=("INHERITED",), flags=TRANSPARENT)
     if behavior == "kp" and len(args) == 1:
         return keycode_legend(args[0])
-    if behavior == "ht" and len(args) == 2 and args[0] in MODIFIERS:
+    if behavior == "ht" and len(args) == 2 and args[0] in HOLD_KEYS:
         tap = keycode_legend(args[1])
-        hold_short, hold_name = MODIFIERS[args[0]]
+        hold_short, hold_name = HOLD_KEYS[args[0]]
         tap_name = {"BSPC": "BSPC", "RET": "ENTER"}.get(args[1], tap.lines[0])
         return Legend(tap.short, hold_short, (f"TAP {tap_name}", f"HOLD {hold_name}"), HOLD_TAP)
     if behavior == "lt" and args == ["NAV_LAYER", "SPACE"]:

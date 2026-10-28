@@ -143,7 +143,7 @@
                         display-name = "Typing";
                         bindings = <
    &none
-   &kp Q &kp W &kp F &kp P &kp G   
+   &ht GLOBE Q &kp W &kp F &kp P &kp G
    &kp J &kp L &kp U &kp Y &ht RGUI SEMI
    &none
 

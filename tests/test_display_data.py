@@ -66,7 +66,7 @@ class DisplayDataTests(unittest.TestCase):
 
     def test_known_edit_invalidates_generated_data(self):
         current = DATA.generate(self.source)
-        changed = DATA.generate(self.source.replace('&kp Q', '&kp Y', 1))
+        changed = DATA.generate(self.source.replace('&ht GLOBE Q', '&ht GLOBE Y', 1))
         self.assertNotEqual(current, changed)
         self.assertEqual(current, (ROOT / 'src/utility/keymap_data.c').read_text())
 
